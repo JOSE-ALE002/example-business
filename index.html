@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boostrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/rolly.css" />
+
+    <!-- Google Fonts -->
+    <linkTitillium+Web:wght@300;400;600&
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Protecto3_Boostrap4</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <!-- estilos propios -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid bg-light text-center fixed-top p-3">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light container"
+        id="navbar-example2"
+      >
+        <a class="navbar-brand" href="#">
+          <img src="img/logo2.png" height="30px" width="150px" alt="" class="img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <!-- <a class="nav-item nav-link" href="#">Portfolio</a> -->
+            <a class="nav-item nav-link" href="#about-us">About us</a>
+            <a class="nav-item nav-link" href="#precios">Precios</a>
+            <a class="nav-item nav-link" href="#testimonials"
+              >Testimonios</a
+            >
+            <a class="nav-item nav-link" href="#contact">Contacto</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      
+      tabindex="0"
+    >
+      <section class="container-fluid slider">
+        <div class="container">
+          <div class="animate__animated animate__fadeInDown content-center">
+            <h1 class="display-4 font-weight-bolder" style="line-height: 80px">
+              Mantente al margen de las empresas grandes <br />
+              <span class="text-capitalize badge badge-primary"
+                >Hosting Web</span
+              >
+            </h1>
+            <p>
+              Haz que tu empresa o negocio sobresalga con un sitio web
+              personalizado para que las personas puedan conozcan tus articulos
+              y productos y puedas hacer crecer tu empresa hasta lo mas alto.
+              <br />
+              No esperes mas, y mejora tu empresa.
+            </p>
+            <a href="#about-us" role="button" class="btn btn-lg btn-light mx-auto"
+              >Explore now
+              <ion-icon name="caret-forward-circle-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-us" class="bg-light">
+        <div class="container">
+          <div class="content-center">
+            <h2 style="font-size: 40px">
+              Mantén la calma, estás en <br />
+              <b class="text-capitalize">buena compañia</b>
+            </h2>
+            <p class="mt-3">
+              Miles confían en nuestros servicios de alojamiento web No solo lo
+              decimos nosotros. Somos el proveedor de alojamiento web por
+              elección de miles de clientes felices con sus sitios web
+            </p>
+          </div>
+
+          <div class="row gy-2 pb-5">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="text-center mt-4 text-primary">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    fill="currentColor"
+                    class="bi bi-shield-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"
+                    />
+                    <path
+                      d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-center text-muted">
+                    Seguridad
+                  </h6>
+                  <!-- <p class="card-text">
+                  Los sitios web estan completamentes protegidos
+                </p> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="text-center mt-4 text-primary">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    fill="currentColor"
+                    class="bi bi-ui-checks-grid"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1zm9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-3zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-3zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-3zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0l2-2z"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-center text-muted">
+                    Control total
+                  </h6>
+                  <!-- <p class="card-text">
+                  Los sitios web estan completamentes protegidos
+                </p> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="text-center mt-4 text-primary">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    fill="currentColor"
+                    class="bi bi-graph-up"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-center text-muted">
+                    Excelente desempeño
+                  </h6>
+                  <!-- <p class="card-text">
+                  Los sitios web estan completamentes protegidos
+                </p> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="text-center mt-4 text-primary">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    fill="currentColor"
+                    class="bi bi-trophy"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-center text-muted">
+                    Confiabilidad
+                  </h6>
+                  <!-- <p class="card-text">
+                  Los sitios web estan completamentes protegidos
+                </p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="precios" class="container-fluid">
+        <div class="container">
+          <div class="content-center">
+            <h2 style="font-size: 40px">
+              Precios creados y adaptados para <br />
+              <b class="text-capitalize">cada negocio</b>
+            </h2>
+            <p>
+
+              Ofrecemos varios planes para que puedad desplegar tu sitio web.
+              <br> Elige el que mas se adapte a tus nesesidades.              
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div data-aos="fade-up" class="col-md-6">
+              <div
+                class="princing-container"
+                style="
+                  background-image: url(https://images.pexels.com/photos/2457278/pexels-photo-2457278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+                  background-size: cover;
+                "
+              >
+                <div class="planes text-white border border-dark">
+                  <h4>Starter Solution</h4>
+                  <h2 class="display-4 font-weight-bolder">
+                    $10 <span style="font-size: 20px">/ per month</span>
+                  </h2>
+                  <h4>Per 1 Million Data Points</h4>
+                  <ul class="mt-2">
+                    <li>1 Sitio Web</li>
+                    <li>1 Base de datos</li>
+                    <li>10 000 Visitas Mensuales</li>
+                    <li>50 GB de Almacenamiento SSD</li>
+                  </ul>
+                  <button class="btn mt-4 btn-outline-light btn-block">
+                    Start now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" class="col-md-6">
+              <div
+                class="princing-container"
+                style="
+                  background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+                  background-size: cover;
+                "
+              >
+                <div class="planes text-white">
+                  <h4>Enterprise Solution</h4>
+                  <h2 class="display-4 font-weight-bolder">
+                    $30 <span style="font-size: 20px">/ per month</span>
+                  </h2>
+                  <h4>Per 1 Million Data Points</h4>
+                  <ul class="mt-2">
+                    <li>10 Sitios Web</li>
+                    <li>Bases de datos Ilimitadas</li>
+                    <li>100 000 Visitas Mensuales</li>
+                    <li>200 GB de Almacenamiento SSD</li>
+                  </ul>
+                  <button class="btn mt-4 btn-outline-light btn-block">
+                    Start now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div class="container">
+          <div class="content-center">
+            <h2 style="font-size: 40px">
+              Valoraciones de <b class="text-capitalize">nuestros clientes</b>
+            </h2>
+            <p class="mt-3">
+              El equipo siempre hace lo mejor por ofrecer un buen servicio a
+              ustedes nuestros clientes para que tengan una buena agradable
+              experiencia y sobretodo que tengan mucho exito con su empresa o
+              negocio. Estas son algunas de las opiniones que nuestros clientes
+              tienen sobre nuestros servicio.
+            </p>
+          </div>
+
+          <!-- CARRUSEL -->
+          <div
+            id="carouselExampleCaptions"
+            class="h-50 carousel slide pt-0"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleCaptions"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-container">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                    minima perspiciatis illo, inventore praesentium sit
+                    dignissimos doloribus, odio sint, quisquam eaque. Itaque
+                    corporis iste molestiae ab consequatur quod eaque eveniet.
+                  </p>
+
+                  <div class="rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="testimonial-user">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img
+                          src="https://images.pexels.com/photos/918475/pexels-photo-918475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          alt="testimonial-1"
+                          class="img-fluid"
+                        />
+                      </div>
+
+                      <div
+                        class="col-md-9 text-center d-flex align-items-center justify-content-center"
+                      >
+                        <div>
+                          <h5>Carmen Rivas</h5>
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-container">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                    minima perspiciatis illo, inventore praesentium sit
+                    dignissimos doloribus, odio sint, quisquam eaque. Itaque
+                    corporis iste molestiae ab consequatur quod eaque eveniet.
+                  </p>
+
+                  <div class="rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="testimonial-user">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img
+                          src="https://images.pexels.com/photos/2331527/pexels-photo-2331527.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          alt="testimonial-1"
+                          class="img-fluid"
+                        />
+                      </div>
+
+                      <div
+                        class="col-md-9 text-center d-flex align-items-center justify-content-center"
+                      >
+                        <div>
+                          <h5>Jennifer Stanford</h5>
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-container">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                    minima perspiciatis illo, inventore praesentium sit
+                    dignissimos doloribus, odio sint, quisquam eaque. Itaque
+                    corporis iste molestiae ab consequatur quod eaque eveniet.
+                  </p>
+                  <div class="rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                      <li class="list-inline-item">
+                        <ion-icon name="star"></ion-icon>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="testimonial-user">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img
+                          src="https://images.pexels.com/photos/2306109/pexels-photo-2306109.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          alt="testimonial-1"
+                          class="img-fluid"
+                        />
+                      </div>
+
+                      <div
+                        class="col-md-9 text-center d-flex align-items-center justify-content-center"
+                      >
+                        <div>
+                          <h5>Wendy Claros</h5>
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-slide="prev"
+            >
+              <div class="control-button">
+                <ion-icon name="arrow-back"></ion-icon>
+              </div>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleCaptions"
+              role="button"
+              data-slide="next"
+            >
+              <div class="control-button">
+                <ion-icon name="arrow-forward"></ion-icon>
+              </div>
+            </a>
+          </div>
+
+          <p class="text-muted text-center text-dark">
+            Sus opiniones nos ayudan a mejorar nuestro servicio. 
+            <!-- para ofrecer un
+            mejor uso y experiencia. -->
+          </p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container mt-5">
+          <div class="row pt-5">
+            <div data-aos="fade-right" class="col-md-6">
+              <h3 class="text-center">
+                Contactanos para mas información <br />
+                <span class="d-block my-3"><b>Haz crecer tu negocio.</b></span>
+              </h3>
+              <p class="lead">
+                Recuerda que puedes contactarte llenando el formulario con la informacion correspondiente, luego de enviar la informacion alguien del equipo se contactará los mas pronto posible contigo. 
+                
+                <br><br> ~ Gracias por preferirnos.
+              </p>
+            </div>
+
+            <!-- Formulario de contacto -->
+            <div data-aos="fade-left" class="col-md-6">
+              <div class="row form-group">
+                <div class="col">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="form-control form-control-lg"
+                  />
+                </div>
+
+                <div class="col">
+                  <input
+                    type="text"
+                    placeholder="LastName"
+                    class="form-control form-control-lg"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="form-control form-control-lg"
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Company Name"
+                  class="form-control form-control-lg"
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="tel"
+                  placeholder="Phone number (optional)"
+                  class="form-control form-control-lg"
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="submit"
+                  value="Contact sales"
+                  class="btn btn-block btn-lg btn-dark"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="background-color: #1a1a1a" class="mt-5">
+        <div class="container">
+          <div class="mx-auto py-5 text-center">
+            <figure class="logo">
+              <img src="img/logo2.png" height="80px" width="200px" class="mx-auto rounded-pill img-fluid" />
+            </figure>
+            <ul class="list-inline py-4">
+              <li class="list-inline-item footer-menu">
+                <a href="#">Home</a>
+              </li>
+              <!-- <li class="list-inline-item footer-menu">
+              <a href="#">Portfolio</a>
+            </li> -->
+              <li class="list-inline-item footer-menu">
+                <a href="#">About us</a>
+              </li>
+              <li class="list-inline-item footer-menu">
+                <a href="#">Princing</a>
+              </li>
+              <li class="list-inline-item footer-menu">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><ion-icon name="logo-youtube"></ion-icon
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><ion-icon name="logo-whatsapp"></ion-icon
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><ion-icon name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+            </ul>            
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Complementos de boostrap 4 -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="./js/rolly.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
